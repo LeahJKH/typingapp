@@ -1,0 +1,39 @@
+/*BASE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*BASE*/
+
+/*ID'S*/
+#screen-contain {
+
+}
+#typing-screen {
+
+}
+#typing-text {
+
+}
+#typing-points{
+
+}
+#typing-highscore {
+
+}
+#typing-time {
+
+}
+/*ID'S*/
+
+/*UTILITY*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+/*UTILITY*/
