@@ -13,13 +13,15 @@ header {
 
 /*ID'S*/
 #screen-contain {
-width: 80vw;
+width: 70vw;
 height: 38vw;
 padding: 20px;
 background-color: rgb(223, 186, 130);
+z-index: 10;
+margin: 20px 10px 20px 260px;
 }
 #typing-screen {
- width: 70vw;
+ width: 65vw;
  height: 60vw;
  margin-bottom: 10px;
  background-color: black;
@@ -39,6 +41,14 @@ background-color: rgb(223, 186, 130);
 }
 #typing-time {
 
+}
+#mascot-M-B {
+    position: absolute;
+    z-index: -2;
+    left: 60px;
+    top: 110px;
+    transform: rotate(-17deg);
+    width: 400px;
 }
 /*ID'S*/
 
