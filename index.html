@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coding typing</title>
+    <title>Coding Typing</title>
     <link rel="stylesheet" href="./src/css/styles.css">
     <script type="module" src="./src/js/index.js"></script>
-
 </head>
 <body>
     <header class="row space-between">
@@ -17,10 +16,12 @@
     <main>
         <img src="./images/Tyco.png" alt="mascot of typing game" id="mascot-M-B">
         <div class="column flex-center" id="screen-contain">
-            <div id="typing-screen">
-                <p id="typing-text"></p>
 
+            <div id="typing-screen">
+                <button id="start-game">Start Game</button>
+                <p id="typing-text"></p>
             </div>
+
             <div class="row space-between">
                 <div>
                     <p id="typing-points">points: 140p</p>
@@ -29,9 +30,10 @@
                     <p id="typing-highscore">Highscore: 200p</p>
                 </div>
                 <div>
-                    <p id="typing-time">Time: 10:00</p>
+                    <p id="typing-time">Time: 0s</p>
                 </div>
             </div>
+            
         </div>
     </main>
 
