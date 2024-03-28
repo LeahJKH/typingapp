@@ -9,9 +9,19 @@ header {
     background-color: rgb(223, 186, 130);
     height: 10vh;
 }
+body {
+    background-color: rgb(221, 219, 219);
+}
 /*BASE*/
 
 /*ID'S*/
+#start-game {
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgb(223, 186, 130);
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
 #screen-contain {
 width: 70vw;
 height: 38vw;

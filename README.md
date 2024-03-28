@@ -3,3 +3,6 @@ This is the start of the typing game. i am gonna challenge myself in making a ty
 
 ## changelog
 
+-Tyco mascot
+
+-
