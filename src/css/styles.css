@@ -74,6 +74,9 @@ margin: 20px 10px 20px 260px;
     justify-content: space-between;
     align-items: center;
 }
+.typed-letter {
+    background-color: white;
+}
 /*CLASSES*/
 
 /*UTILITY*/
