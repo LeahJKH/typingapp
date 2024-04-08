@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Typing</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css" />
     <script type="module" src="./src/js/index.js"></script>
-</head>
-<body>
-    <header class="row space-between">
-        <img src="" alt="icon for site">
-        <h1>Code typing</h1>
+  </head>
+  <body>
+    <header>
+      <div class="header-box1"></div>
+      <div class="logo-box">
+        <img class="logo" src="./images/Code Catalyst Logo.svg" />
+      </div>
+      <div class="header-box2"></div>
     </header>
 
     <main>
-        <img src="./images/Tyco.png" alt="mascot of typing game" id="mascot-M-B">
-        <div class="column flex-center" id="screen-contain">
-
-            <div id="typing-screen">
-                <button id="start-game">Start Game</button>
-                <p id="typing-text"></p>
-            </div>
-
-            <div class="row space-between">
-                <div>
-                    <p id="typing-points">points: 140p</p>
-                </div>
-                <div>
-                    <p id="typing-highscore">Highscore: 200p</p>
-                </div>
-                <div>
-                    <p id="typing-time">Time: 0s</p>
-                </div>
-            </div>
-            
+      <section>
+        <div class="mascot-box">
+          <img
+            src="./images/Tyco.png"
+            alt="mascot of typing game"
+            id="mascot-M-B"
+          />
         </div>
+        <div class="game-screen" id="screen-contain">
+          <div id="typing-screen">
+            <button id="start-game">Start Game</button>
+            <p id="typing-text"></p>
+          </div>
+          <div class="points-box">
+            <div>
+              <p id="typing-points">points: 140p</p>
+            </div>
+            <div>
+              <p id="typing-highscore">Highscore: 200p</p>
+            </div>
+            <div>
+              <p id="typing-time">Time: 0s</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
