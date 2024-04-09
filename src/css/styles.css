@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url("/images/spacewhite.jpeg");
+  background: url("/../images/spacewhite.jpeg");
 
   background-repeat: no-repeat;
   background-position: center right;
