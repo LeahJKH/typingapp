@@ -11,19 +11,19 @@
 }
 
 body {
-  background: url(/images/Table\ Background.jpeg);
+  background: url(/images/space-white.jpeg);
 
   background-repeat: no-repeat;
-  background-position: -40rem -35rem;
-  background-size: 170% 170%;
+  background-position: center right;
+  background-size: cover;
   height: 100vh;
-  width: auto;
 }
 
 header {
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  background-color: #d8d1d1eb;
 }
 
 section {
@@ -141,10 +141,12 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: #d8d1d1;
+  color: #ede4e4;
   background-color: #95859f;
   border-radius: 1rem;
   padding: 0.4rem;
+  font-size: 2vmax;
+  border: 0.1rem solid #ede4e4;
 }
 
 /*CLASSES*/
