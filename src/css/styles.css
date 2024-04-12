@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 header {
@@ -53,8 +53,8 @@ section {
 }
 
 #typing-screen {
-  max-width: 100%;
-  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   margin-bottom: 10px;
   background-color: #3f3d3d;
   padding: 10px;
