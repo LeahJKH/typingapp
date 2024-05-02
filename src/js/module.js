@@ -60,3 +60,30 @@ export const wordField = [
       
       `const randomNum = Math.floor(Math.random() * 100);`,
   ];
+
+export const tycoEncouragement = [
+  "Great",
+  "You should become fullstack next",
+  "You really understand this",
+  "Maybe this is too easy for you",
+  "Oh wow",
+  "Continue this and i might hire you",
+  "Yummy",
+  "delish!",
+  "Couldn't code it better",
+  "You're a real coder!",
+  "Amazing",
+  "Good job!",
+]
+export const tycoDisapointed = [
+  "Oh um",
+  "Maybe you should try something else",
+  "Thats wrong",
+  "Missclick?",
+  "Lag?",
+  "High ping?",
+  "Not right",
+  "Do it again",
+  "I wouldnt do that",
+  "Maybe coding isn't your calling"
+]
