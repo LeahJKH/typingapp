@@ -85,5 +85,6 @@ export const tycoDisapointed = [
   "Not right",
   "Do it again",
   "I wouldnt do that",
-  "Maybe coding isn't your calling"
+  "Maybe coding isn't your calling",
+  "Erm, what the sigma?"
 ]
